@@ -9,6 +9,6 @@
 </p>
 
 <p>
-  <strong>Portrait:</strong>
-  <%= image_tag @user.portrait.variant(resize_to_limit: [100, 100]) if @user.portrait.present? %>
+  <strong>Profile Image:</strong>
+  <%= image_tag @user.profile_image.variant(resize_to_limit: [100, 100]) if @user.profile_image.present? %>
 </p>
