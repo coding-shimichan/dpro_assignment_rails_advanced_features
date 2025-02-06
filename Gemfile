@@ -56,6 +56,8 @@ group :test do
   gem 'capybara', '>= 2.15'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'selenium-webdriver'
+  # Imagemagick
+  gem 'rmagick'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
